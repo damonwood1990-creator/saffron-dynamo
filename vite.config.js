@@ -8,20 +8,26 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "Saffron Dynamo U13 Wolves Stats",
-        short_name: "DynamoStats",
-        start_url: "/",
+        name: "Saffron Dynamo Stats",
+        short_name: "Dynamo Stats",
+        description: "Football team stats tracker",
+        theme_color: "#000000",
+        background_color: "#000000",
         display: "standalone",
-        background_color: "#111111",
-        theme_color: "#ff0000",
+        start_url: "/",
         icons: [
           {
-            src: "/favicon.ico",
-            sizes: "64x64",
-            type: "image/x-icon"
-          }
-        ]
-      }
-    })
-  ]
+            src: "/icon-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+          {
+            src: "/icon-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+        ],
+      },
+    }),
+  ],
 });
