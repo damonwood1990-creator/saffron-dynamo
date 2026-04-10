@@ -9,8 +9,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const SHEET_ID = "REPLACE_ME";
-const API_KEY = "REPLACE_ME";
+const SHEET_ID = "1JiKZ7wLBEMm6PQNhNgD_uhq9hfj5rJ_o37ZWZ7k9qBw";
+const API_KEY = "AIzaSyDuV-_bR7geClLTY4GwnloOMRTXsG_W_ys";
 
 export default function Charts() {
   const [data, setData] = useState([]);
